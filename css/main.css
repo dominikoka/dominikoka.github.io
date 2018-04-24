@@ -269,7 +269,7 @@ strong {
 }
 
 .box {
-  background: url(../components/img/background.png) no-repeat 0px;
+  background: url("https://github.com/dominikoka/dominikoka.github.io/blob/master/components/img/Background.png") no-repeat 0px;
   background-size: 100% 100%;
 }
 
