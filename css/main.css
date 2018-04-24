@@ -269,7 +269,7 @@ strong {
 }
 
 .box {
-  background: url(./components/img/background.png) no-repeat 0px;
+  background-image: url("../components/img/Background.png");
   background-size: 100% 100%;
 }
 
