@@ -21,9 +21,9 @@
         <div class="box__column-one">
           <div class="title">Register Form</div>
           <form class="register">
-            <input class="register__element register__element-name" name="Username" type="username" placeholder="Username" autocomplete="off">
-            <input class="register__element register__element-password" name="password" type="password" placeholder="Password" autocomplete="off">
-            <input class="register__element register__element-password" name="password" type="password" placeholder="Confirm Password" autocomplete="off">
+            <input class="register__element register__element-name" name="Username" type="username" placeholder="Username" autocomplete="off" required>
+            <input class="register__element register__element-password" name="password" type="password" placeholder="Password" autocomplete="off" required>
+            <input class="register__element register__element-password" name="password" type="password" placeholder="Confirm Password" autocomplete="off" required>
             <div class="register__element-emailWrapper">
               <input class="register__element register__element-email" name="email" type="email" placeholder="Email" autocomplete="nope">
             </div>
@@ -43,9 +43,9 @@
           </form>
           <div class="title">Send Email</div>
           <form class="sendMail">
-            <input class="sendMail__element sendMail__element-name" name="Username" type="username" placeholder="Username" autocomplete="off">
+            <input class="sendMail__element sendMail__element-name" name="Username" type="username" placeholder="Username" autocomplete="off" required>
             <div class="sendMail__element-emailWrapper">
-              <input class="sendMail__element sendMail__element-email" name="email" type="email" placeholder="E-mail" autocomplete="nope">
+              <input class="sendMail__element sendMail__element-email" name="email" type="email" placeholder="E-mail" autocomplete="nope" required>
             </div>
             <textarea class="sendMail__element sendMail__element-textarea" placeholder="Type your message"></textarea>
             <div class="sendMail__checkbox">
@@ -60,8 +60,8 @@
         <div class="box__column-two">
           <div class="title">Sign in Form</div>
           <form class="signIn">
-            <input class="signIn__element signIn__element-name" name="Username" type="username" placeholder="Username" autocomplete="off">
-            <input class="signIn__element signIn__element-password" name="password" type="password" placeholder="Password" autocomplete="off">
+            <input class="signIn__element signIn__element-name" name="Username" type="username" placeholder="Username" autocomplete="off" required>
+            <input class="signIn__element signIn__element-password" name="password" type="password" placeholder="Password" autocomplete="off" required>
             <div class="signIn__flex">
               <div class="signIn__checkbox block__checkbox-flex">
                 <input class="signIn__input" id="checksignIn" type="checkbox" name="check" value="check">
@@ -75,9 +75,9 @@
           <div class="title">Recover Form</div>
           <form class="recover">
             <div class="recover__element-emailWrapper">
-              <input class="recover__element recover__element-email" name="email" type="email" placeholder="Email" autocomplete="nope">
+              <input class="recover__element recover__element-email" name="email" type="email" placeholder="Email" autocomplete="nope" required>
             </div>
-            <input class="recover__element recover__element-phone" name="phone" type="tel" placeholder="phone" autocomplete="off">
+            <input class="recover__element recover__element-phone" name="phone" type="tel" placeholder="phone" autocomplete="off" required>
             <div class="recover__flex">
               <button class="recover__element recover__element-submitPhone" name="submit" type="submit" value="Send">Send</button>
               <button class="recover__element recover__element-submitPhoneDone" name="submit" type="submit" value="Done">Done</button>
@@ -86,7 +86,7 @@
           <div class="title">Subscribe</div>
           <form class="subscribe">
             <div class="subscribe__element-emailWrapper">
-              <input class="subscribe__element subscribe__element-email" name="email" type="email" placeholder="Enter Your E-mail" autocomplete="nope">
+              <input class="subscribe__element subscribe__element-email" name="email" type="email" placeholder="Enter Your E-mail" autocomplete="nope" required>
             </div>
             <div class="subscribe__flex">
               <button class="subscribe__element subscribe__element-submitSubscribeYes" name="submit" type="submit" value="Subscribe">Subscribe</button>
