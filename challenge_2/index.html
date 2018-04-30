@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>zadanie_2
+	
+    </title>
+    <meta charset="utf-8">
+    <meta name="title" content="Szablon przykładowy">
+    <meta name="description" content="Szablon przykładowy opis">
+    <meta name="keywords" content="Szablon przykładowy keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+	
+  </head>
+  <body>
+    <div class="header scroll-content" id="home">
+      <div class="header__box">
+        <div class="header__menu headroom">
+          <div class="header__logo"><img class="header__img" src="components/img/logo.png"></div>
+          <div class="menuToogle">
+            <input class="menu__input" type="checkbox"><span class="menu__hamburgerSpan"></span><span class="menu__hamburgerSpan"></span><span class="menu__hamburgerSpan"></span>
+            <ul class="menu">
+              <li class="menu__item active"><a class="menu__link scroll" href="#home">HOME</a></li>
+              <li class="menu__item"><a class="menu__link scroll" href="#about">ABOUT</a></li>
+              <li class="menu__item"><a class="menu__link scroll" href="#services">SERVICES</a></li>
+              <li class="menu__item"><a class="menu__link scroll" href="#gallery">GALLERY</a></li>
+              <li class="menu__item"><a class="menu__link scroll" href="#blog">BLOG</a></li>
+              <li class="menu__item"><a class="menu__link scroll" href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__boxtext">
+          <div class="header__title">Fresh Life</div>
+          <div class="header__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliq Sed do_eiusmod_tempor_incididunt_ut_labore_et_d</div>
+          <button class="header__button" type="button" onclick="alert('Hello world!')">ONLINE SHOPPING</button>
+        </div>
+      </div>
+    </div>
+    <div class="aboutUs scroll-content" id="about">
+      <div class="aboutUs__box">
+        <div class="aboutUs__columnone"><img class="aboutUs__img" src="components/img/raspberries.png"></div>
+        <div class="aboutUs__columntwo">
+          <div class="aboutUs__title">About Us</div>
+          <div class="aboutUs__text">
+            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ourService scroll-content" id="services">
+      <div class="ourService__box">
+        <div class="ourService__columnOne">
+          <div class="ourService__buttonBox">
+            <button class="ourService__OnlineShopping" type="button" onclick="alert('Hello world!')">ONLINE SHOPPING</button>
+            <button class="ourService__qualityProduct" type="button" onclick="alert('QUALITY PRODUCT')">QUALITY PRODUCT</button>
+            <button class="ourService__domestic" type="button" onclick="alert('QUALITY PRODUCT')">DOMESTIC & INTERNATIONAL DELIVERY</button>
+            <button class="ourService__wellOrganized" type="button" onclick="alert('QUALITY PRODUCT')">WELL ORGANIZED</button>
+          </div>
+        </div>
+        <div class="ourService__columnTwo"><img class="ourService__img" src="components/img/tomato.png"></div>
+      </div>
+    </div>
+    <div class="gallery scroll-content" id="gallery">
+      <div class="gallery__box">
+        <div class="gallery__title">Gallery</div>
+        <div class="gallery__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="gallery__items"><a class="gallery__image1" src="components/img/mag.png" data-gallery-src="components/img/item1.png" data-gallery-desc="First Product" alt="First Product"><span class="gallery__rolls1"></span><img class="gallery__item1" src="components/img/item1.png"></a>
+          <div class="gallery__itemGroup"><a class="gallery__image2" src="components/img/item2.png" data-gallery-src="components/img/item2.png" data-gallery-desc="Second Product" alt="Second Product"><span class="gallery__rolls2"></span><img class="gallery__item2" src="components/img/item2.png"></a><a class="gallery__image3" src="components/img/item3.png" data-gallery-src="components/img/item3.png" data-gallery-desc="First Product" alt="First Product"><span class="gallery__rolls3"></span><img class="gallery__item3" src="components/img/item3.png"></a></div><a class="gallery__image4" src="components/img/item4.png" data-gallery-src="components/img/item4.png" data-gallery-desc="First Product" alt="First Product"><span class="gallery__rolls4"></span><img class="gallery__item4" src="components/img/item4.png"></a><a class="gallery__image5" src="components/img/item5.png" data-gallery-src="components/img/item5.png" data-gallery-desc="Image 1" alt="Image 1"><span class="gallery__rolls5"></span><img class="gallery__item5" src="components/img/item5.png"></a>
+        </div>
+        <button class="gallery__button">View more</button>
+      </div>
+    </div>
+    <div class="subscribe">
+      <div class="subscribe__box">
+        <div class="subscribe__title">Subscribe To Us</div>
+        <div class="subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+        <div class="subscribe__element">
+          <input class="subscribe__email" name="email" type="email" placeholder="Your e-mail adress" autocomplete="nope">
+          <button class="subscribe__button" type="button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="blog" id="blog">
+      <div class="blog__box">
+        <div class="blog__title">Blog</div>
+        <div class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</div>
+        <ul class="hovedir blog__items" id="da-thumbs">
+          <li class="hovedir__li"><a class="hovedir__a" href="http://dribbble.com/shots/504197-Mr-Crabs"><img class="hovedir__img" src="components/img/blog_item2.png">
+              <div class="hovedir__textBox">
+                <h1 class="hovedir__text1">20<span class="hovedir__span">NOV</span></h1>
+                <h1 class="hovedir__text2">Pesticides & Food: What You Need to Know<span class="hovedir__span2">By Auskteez - 2 hours</span></h1>
+              </div></a></li>
+          <li class="hovedir__li"><a class="hovedir__a" href="http://dribbble.com/shots/504197-Mr-Crabs"><img class="hovedir__img" src="components/img/blog_item3.png">
+              <div class="hovedir__textBox">
+                <h1 class="hovedir__text1">14<span class="hovedir__span">NOV</span></h1>
+                <h1 class="hovedir__text2">Growing Food and a “Thirst” for Innovation<span class="hovedir__span2">By Auskteez - 3 hours</span></h1>
+              </div></a></li>
+          <li class="hovedir__li"><a class="hovedir__a" href="http://dribbble.com/shots/504197-Mr-Crabs"><img class="hovedir__img" src="components/img/blog_item2.png">
+              <div class="hovedir__textBox">
+                <h1 class="hovedir__text1">10<span class="hovedir__span">NOV</span></h1>
+                <h1 class="hovedir__text2">Pesticides & Food: What You Need to Know<span class="hovedir__span2">By Auskteez - 6 hours</span></h1>
+              </div></a></li>
+        </ul>
+        <button class="blog__button">VIEW MORE</button>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="contact__box">
+        <div class="contact__title">Contact</div>
+        <div class="contact__text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</div>
+        <div class="contact__items">
+          <form class="contact__form">
+            <input class="contact__name" name="Username" type="username" placeholder="Auskteez Tran" autocomplete="off">
+            <input class="contact__email" name="email" type="email" placeholder="Your email" autocomplete="off">
+            <input class="contact__phone" name="password" type="password" placeholder="Your phone number..." autocomplete="off">
+            <textarea class="contact__textarea" placeholder="Type your message"></textarea>
+          </form>
+          <div class="contact__data">
+            <div class="contact__itemtext">
+              <div class="contact__bold">ADDRESS</div>
+              <div class="contact__span">123 City name, Street, City, Country</div>
+            </div>
+            <div class="contact__itemtext">
+              <div class="contact__bold">EMAIL</div>
+              <div class="contact__span">cahee@domain.com</div>
+            </div>
+            <div class="contact__itemtext">
+              <div class="contact__bold">PHONE</div>
+              <div class="contact__span">123456789</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__box">
+        <div class="footer__item">
+          <div class="footer__text">© 2015 Company. All right reserved.</div>
+        </div>
+        <div class="footer__item"><img class="footer__img" src="components/img/logo-small.png"></div>
+        <div class="footer__item">
+          <div class="footer__text">Made with<span class="footer__span">love</span>by GT</div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/gallery.es6"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="scripts/roll.js"></script>
+    <script type="text/javascript" src="scripts/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="scripts/hovedir.js"></script>
+    <script src="scripts/modernizr.custom.97074.js"></script>
+    <script src="scripts/smooth.js"></script>
+    <script src="scripts/headroom.min.js"></script>
+    <script src="scripts/headroom_custom.js"></script>
+  </body>
+</html>
