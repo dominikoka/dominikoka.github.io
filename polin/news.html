@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Tom&Rose_szablon</title>
+    <meta charset="utf-8">
+    <meta name="title" content="Szablon przykładowy">
+    <meta name="description" content="Szablon przykładowy opis">
+    <meta name="keywords" content="Szablon przykładowy keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/components/favicon/src/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/components/favicon/src/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/components/favicon/src/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/components/favicon/src/manifest.json">
+    <link rel="shortcut icon" href="/components/favicon/src/favicon.ico">
+    <meta name="msapplication-config" content="/components/favicon/src/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <script>
+      document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+        + ':35729/livereload.js"></'
+        + 'script>')
+    </script>
+  </head>
+  <body>
+    <div class="box__menu"><a class="menu__logo" href="main.html"><img class="menu__logo" src="components/img/logo.png"></a>
+      <div class="search">
+        <div class="search__img"><img src="components/img/pl.png"></div>
+        <div class="search__img"><img src="components/img/en.png"></div>
+        <div class="box__email">
+          <input class="menu__input" type="text" placeholder="Wyszukaj na stronie">
+        </div>
+        <div class="search__img"><img src="components/img/search.jpg"></div>
+      </div>
+    </div>
+    <div class="nav">
+      <nav><a class="hamburger" href="#">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div></a>
+        <ul class="clearfix menu">
+          <ol class="menuol">
+            <li class="menuli"><a href="news.html">Aktualności</a></li>
+            <li class="menuli"><a href="aboutcompany.html">O firmie</a></li>
+            <li class="menuli"><a href="oNaczyniach.html">Oferta</a>
+              <ul class="expand">
+                <li class="expand__li"><a class="expand__a" href="#">Kontrola sieci</a>
+                  <ul class="double">
+                    <li class="expand__li menu"><img class="square" src="components/img/square.png"><a class="expand__a menu" href="main.html">Przekaźniki zaniku i kolejności faz</a></li>
+                    <li class="expand__li menu"><img class="square" src="components/img/square.png"><a class="expand__a menu" href="main.html">Przekaźniki zaniku i kolejności faz z dwoma stykami przełącznymi</a></li>
+                    <li class="expand__li menu"><img class="square" src="components/img/square.png"><a class="expand__a menu" href="main.html">Przekaźniki zaniku i kolejności faz z kontrolą styków stycznika</a></li>
+                    <li class="expand__li menu"><img class="square" src="components/img/square.png"><a class="expand__a menu" href="main.html">Automatyczne przełączniki faz</a></li>
+                    <li class="expand__li menu"><img class="square" src="components/img/square.png"><a class="expand__a menu" href="main.html">Zestawy stycznikowo-przekaźnikowe(zabezpieczenie silnika)</a></li>
+                    <li class="expand__li menu"><img class="square" src="components/img/square.png"><a class="expand__a menu" href="main.html">Sterowniki Samoczynnego Załączania rezerwy</a></li>
+                  </ul>
+                </li>
+                <li class="expand__li"><a class="expand__a" href="lightingcontrol.html">Sterowanie oświetleniem</a></li>
+                <li class="expand__li"><a class="expand__a" href="oNaczyniach.html">Wskaźniki napięcia(zasilania)</a></li>
+                <li class="expand__li"><a class="expand__a" href="oNaczyniach.html">Przekaźniki czasowe</a></li>
+                <li class="expand__li"><a class="expand__a" href="details.html">inne</a></li>
+                <li class="expand__li"><a class="expand__a" href="details.html">Oferta</a></li>
+              </ul>
+            </li>
+            <li class="menuli"><a href="naszeZestawy.html">Cennik</a></li>
+            <li class="menuli"><a href="naczyniazPrzepisami.html">Katalog</a></li>
+            <li class="menuli"><a href="#f_box_1">Pliki do pobrania</a></li>
+            <li class="menuli"><a href="#">Kontakt</a></li>
+          </ol>
+        </ul>
+      </nav>
+    </div>
+    <div class="news">
+      <div class="download">
+        <div class="global__title">Informacje, ciekawostki</div><img class="download__img" src="components/img/news.png">
+        <div class="download__title">Pliki do pobrania</div><a class="file" href="#"><img class="file__img" src="components/img/file_pdf.png">
+          <div class="file__text">Karta katalogowa klimatyzatora</div><a class="file" href="#"><img class="file__img" src="components/img/file_pdf.png">
+            <div class="file__text">Karta katalogowa klimatyzatora</div></a></a>
+      </div>
+      <div class="global">
+        <div class="global__title">Czujnik zaniku fazy i kolejności faz MKP-1P</div>
+        <div class="global__text">
+          Przekaźnik asymetrii napięciowej MKF-1P przeznaczony jest
+          do zabezpieczania silników trójfazowych (3 x 400V AC)
+          o dowolnej mocy przed skutkami pracy przy przerwie obwodu w jednym z przewodów zasilających (zanik fazy), przy spadku napięcia (asymetria napięć fazowych) oraz przy nieprawidłowej kolejności faz.
+        </div>
+      </div>
+    </div>
+    <div class="slider akt">
+      <div class="slider__title akt">Galeria zdjęć</div>
+      <div class="control akt">
+        <div class="control__back akt">
+          <div class="back akt"></div>
+        </div>
+        <div class="control__next akt">
+          <div class="next akt"></div>
+        </div>
+      </div>
+      <div class="items akt">
+        <div class="item akt">
+          <div class="boxs akt"><img class="box__img" src="components/img/galery.jpg">
+            <div class="boxs__text akt">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item akt">
+          <div class="boxs akt"><img class="box__img" src="components/img/galery_2.jpg">
+            <div class="boxs__text akt">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item akt">
+          <div class="boxs akt"><img class="box__img" src="components/img/galery.jpg">
+            <div class="boxs__text akt">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item akt">
+          <div class="boxs akt"><img class="box__img" src="components/img/galery.jpg">
+            <div class="boxs__text akt">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item akt">
+          <div class="boxs akt"><img class="box__img" src="components/img/galery.jpg">
+            <div class="boxs__text akt">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider aktsecond">
+      <div class="slider__title akt">Pozostałe informacje</div>
+      <div class="control akt">
+        <div class="control__back aktsecond">
+          <div class="back akt"></div>
+        </div>
+        <div class="control__next aktsecond">
+          <div class="next akt"></div>
+        </div>
+      </div>
+      <div class="items aktsecond">
+        <div class="item aktsecond">
+          <div class="boxs aktsecond"><img class="box__img" src="components/img/slider_01.jpg">
+            <div class="boxs__text aktsecond">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item aktsecond">
+          <div class="boxs aktsecond"><img class="box__img" src="components/img/slider_01.jpg">
+            <div class="boxs__text aktsecond">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item aktsecond">
+          <div class="boxs aktsecond"><img class="box__img" src="components/img/slider_01.jpg">
+            <div class="boxs__text aktsecond">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item aktsecond">
+          <div class="boxs aktsecond"><img class="box__img" src="components/img/slider_01.jpg">
+            <div class="boxs__text aktsecond">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+        <div class="item aktsecond">
+          <div class="boxs aktsecond"><img class="box__img" src="components/img/slider_01.jpg">
+            <div class="boxs__text aktsecond">Kotek samoczynnego załączania rezerwy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="global__title year">2015</div>
+    <div class="global__title second">Tylko do 31 marca promocja włącznika sterowaniem SM354</div>
+    <div class="global__title year">2013</div>
+    <!--include ../components/slider/_slider.pug-->
+    <!--include ../components/maincontent/_maincontent.pug-->
+    <footer class="footer">
+      <div class="pin"><img class="pin__img" src="components/img/pinezka.png"></div>
+      <div class="container_mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4717.479541727014!2d20.457943384539043!3d53.75851665630176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6fc53817e2072462!2sOgr%C3%B3d+Dydaktyczno-Do%C5%9Bwiadczalny.+Wydzia%C5%82+Kszta%C5%82towania+%C5%9Arodowiska+i+Rolnictwa+UWM.!5e0!3m2!1spl!2spl!4v1486556285602" width="100%" height="450" frameborder="0" style="border:0;"></iframe>
+      </div>
+      <div class="container_footer">
+        <div class="box__footer">
+          <div class="footerbox pad">
+            <div class="footerbox__title">NA SKRÓTY</div>
+            <div class="footerbox__text">Automatyczne przełączniki faz<br>Jednofunkcyjne przekaźniki czasowe<br>Testery ciągłości przewodów<br>Modły styków pomocniczych<br>Moduły bezpiecznikowe</div>
+          </div>
+          <div class="footerbox">
+            <div class="footerbox__title">SPOŁECZNOŚCI</div>
+            <div class="img__box">
+              <div class="footerbox__img"><img src="smiley.gif" height="32" width="32"></div>
+              <div class="footerbox__img"><img src="smiley.gif" height="32" width="32"></div>
+              <div class="footerbox__img"><img src="smiley.gif" height="32" width="32"></div>
+            </div>
+            <div class="footerbox__title">INFORMACJE O STRONIE</div>
+            <div class="footerbox__text">Polityka prywatości<br>Regulamin żytkowania strony<br>Mapa strony</div>
+          </div>
+        </div>
+        <div class="box__footer">
+          <div class="footerbox red">
+            <div class="footerbox__title">Newsletter</div>
+            <div class="footerbox__text">Informacje o wydarzeniach, promocjach i nowych produktach prosto na Twoją skrzynke</div>
+            <div class="box_email">
+              <input type="text" name="imie">
+            </div>
+            <div class="box_checkbox padding">
+              <input type="checkbox" name="nazwa" value="wartość">Zapoznałem się i akceptuje politykę prywatności firmy POLLIN
+            </div>
+            <div class="box_checkbox">
+              <input type="checkbox" name="nazwa" value="wartość">Regulamin
+            </div>
+            <div class="box_checkbox">
+              <input type="checkbox" name="nazwa" value="wartość">Rezygnacja
+            </div>
+            <div class="img__box btn">
+              <div class="button_send"><a class="button" href="#">Zapisz się</a></div>
+            </div>
+          </div>
+          <div class="footerbox">
+            <div class="footerbox__title">SZYBKI KONTAKT</div>
+            <div class="footerbox__text flex">
+              <div class="fotterbox__icon"><img src="smiley.gif" height="32" width="32"></div>(22)649-94-90
+            </div>
+            <div class="footerbox__text flex">
+              <div class="fotterbox__icon"><img src="smiley.gif" height="32" width="32"></div>pollin@pollin.pl
+            </div>
+            <div class="footerbox__title">DOJAZD</div>
+            <div class="footerbox__text flex">
+              <div class="fotterbox__icon"><img src="smiley.gif" height="32" width="32"></div>ul.J.Zabińskiego 4, 02-793 Warszawa
+            </div><a class="footer_link" href="oNaczyniach.html">Zobacz jak dojechać</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--include ../components/produkty_szczegol/_produkty_szczegol.pug-->
+    <!--include ../components/aktualnosci/_aktualnosci.pug-->
+    <!--include ../components/ofirmie/_ofirmie.pug-->
+    <!--include ../components/produkty_lista/_produkty_lista.pug-->
+    <script src="scripts/main.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="scripts/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

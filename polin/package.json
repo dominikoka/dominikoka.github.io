@@ -1,0 +1,27 @@
+{
+  "name": "pustySzablon",
+  "version": "1.0.0",
+  "author": "http://softfusion.pl/",
+  "scripts": {
+    "installAll": "npm install",
+    "installDev": "npm install --only=dev",
+    "installProd": "npm install --only=production",
+    "build": "grunt build",
+    "server": "grunt server"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-pug": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sass": "latest",
+    "matchdep": "latest",
+    "slick-carousel": "^1.6.0",
+    "time-grunt": "latest"
+  },
+  "dependencies": {},
+  "private": true
+}
