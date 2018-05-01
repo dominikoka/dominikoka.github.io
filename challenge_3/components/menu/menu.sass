@@ -1,0 +1,119 @@
+.menu
+  display: flex
+  +LAPTOP_MAX
+    display: flex
+    position: absolute
+    width: 200px
+    margin: -100px 0 0 -50px
+    padding: 50px
+    padding-top: 125px
+    flex-direction: column
+    background: #ededed
+    list-style-type: none
+    -webkit-font-smoothing: antialiased
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%
+    transform: translate(-100%, 0)
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0)
+    +LAPTOP_MAX
+      margin: -100px 0 0 -90px
+  +PHONE_ONLY
+    top: 77px
+  &__item
+    padding: 5px 17px
+    &:hover
+      border-top: 4px solid red
+      text-decoration: none
+      padding-top: 1px
+    +LAPTOP_MAX
+      &:hover
+        text-decoration: none
+        border-top: 0px
+        padding-top: 5px
+      &:hover .menu__link
+        color: red
+        transition: 0.3s
+
+  &__link
+    font-size: 16px
+    font-family: "Raleway"
+    color: rgb(38, 38, 38)
+    font-weight: bold
+    line-height: 1.563
+    &:hover
+      text-decoration: none
+
+  &__hamburgerSpan
+    display: none
+    +LAPTOP_MAX
+      display: block
+      width: 33px
+      height: 4px
+      margin-bottom: 5px
+      position: relative
+      background: #cdcdcd
+      border-radius: 3px
+      z-index: 1
+      transform-origin: 4px 0px
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      opacity 0.55s ease
+      &:first-child
+        transform-origin: 0% 0%
+      &:nth-last-child(2)
+        transform-origin: 0% 100%
+      input
+  &__input
+    display: none
+    +LAPTOP_MAX
+      display: block
+      width: 40px
+      height: 32px
+      position: absolute
+      top: -7px
+      left: -5px
+
+      cursor: pointer
+
+      opacity: 0; /* hide this */
+      z-index: 2; /* and place it over the hamburger */
+
+      -webkit-touch-callout: none
+      &:checked ~ .menu__hamburgerSpan
+        opacity: 1
+        transform: rotate(45deg) translate(-2px, -1px)
+        background: #232323
+        &:nth-last-child(3)
+          opacity: 0
+          transform: rotate(0deg) scale(0.2, 0.2)
+        &:nth-last-child(2)
+          transform: rotate(-45deg) translate(0, -1px)
+      &:checked ~ .menu
+
+        transform: none
+
+
+.active
+  border-top: 4px solid red
+  text-decoration: none
+  padding-top: 1px
+  +LAPTOP_MAX
+    text-decoration: none
+    border-top: 0px
+    padding-top: 5px
+    a
+      color: red
+      transition: 0.3s
+
+
+.menuToogle
+  +LAPTOP_MAX
+    display: block
+    position: relative
+    top: 50px
+    left: 50px
+    z-index: 1
+    -webkit-user-select: none
+    user-select: none

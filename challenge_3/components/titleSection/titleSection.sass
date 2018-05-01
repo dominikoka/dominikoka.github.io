@@ -1,0 +1,71 @@
+.titleSection
+  &__box
+    position: relative
+
+  &__slider
+    width: 100%
+    overflow: hidden
+  &__img
+    width: 100%
+    +PHONE_ONLY_480
+      min-height: 300px
+      object-position: 50% 50%
+
+  &__textBox
+    width: 100%
+    position: absolute
+    text-align: center
+    z-index: 3
+    color: white
+    top: 100px
+    +TAB_MAX
+      top: 20px
+  &__title
+    font-weight: bold
+    text-transform: uppercase
+    font-size: 60px
+    font-family: "Montserrat"
+    color: rgb(255, 255, 255)
+    width: 600px
+    margin: auto
+    +LAPTOP_MAX
+      font-size: 40px
+    +TAB_MAX
+      font-size: 36px
+      width: 550px
+    +PHONE_ONLY_600
+      font-size: 26px
+      width: 100%
+
+  &__text
+    padding: 50px 0
+    font-size: 20px
+    font-family: "RobotoSlab"
+    color: rgb(204, 204, 204)
+    +LAPTOP_MAX
+      font-size: 16px
+      padding: 30px 0
+    +TAB_MAX
+      padding: 10px 0
+    +PHONE_ONLY_600
+      padding: 5px 0
+  &__button
+    font-size: 15px
+    font-family: "Montserrat"
+    color: rgb(255, 255, 255)
+    font-weight: bold
+    text-transform: uppercase
+    line-height: 2.763
+    text-align: center
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7)
+    -moz-transform: matrix( 1,0,0,1.07832445487233,0,0)
+    -webkit-transform: matrix( 1,0,0,1.07832445487233,0,0)
+    -ms-transform: matrix( 1,0,0,1.07832445487233,0,0)
+    background-color: rgb(124, 197, 118)
+    border-radius: 15px
+    border: none
+    padding: 0 15px
+    &:hover
+      background-color: rgb(204, 204, 204)
+      transition: 0.5s
+
