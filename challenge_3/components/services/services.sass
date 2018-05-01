@@ -1,0 +1,62 @@
+.services
+  &__box
+    max-width: 940px
+    margin: auto
+    text-align: center
+
+  &__item
+    overflow: hidden
+    width: 290px
+    +LAPTOP_MAX
+      padding-bottom: 50px
+    +PHONE_ONLY_600
+      width: 500px
+    &:hover
+      .services__itemTitle
+        animation: 1s
+      .services__itemText
+        animation: 1s
+  &__itemBox
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    +LAPTOP_MAX
+      justify-content: center
+
+  &__title
+    font-size: 40px
+    font-family: "Myriad Pro"
+    color: rgb(34, 34, 34)
+    text-transform: uppercase
+    padding-top: 80px
+    +PHONE_ONLY_600
+      font-size: 26px
+
+  &__text
+    padding: 0 5px  40px 5px
+    font-size: 20px
+    font-family: "Myriad Pro"
+    color: rgb(119, 119, 119)
+    +PHONE_ONLY_600
+      font-size: 18px
+  &__itemTitle
+    padding: 20px 0
+    font-size: 18px
+    font-family: "Myriad Pro"
+    color: rgb(34, 34, 34)
+    text-transform: uppercase
+    +PHONE_ONLY_600
+      font-size: 16px
+  &__itemText
+
+    font-size: 14px
+    font-family: "RobotoSlab"
+    color: rgb(119, 119, 119)
+    +PHONE_ONLY_600
+      font-size: 12px
+
+
+
+
+
+
