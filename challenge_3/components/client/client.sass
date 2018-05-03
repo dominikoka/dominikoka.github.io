@@ -1,0 +1,62 @@
+.client
+  &__box
+    max-width: 940px
+    margin: auto
+  &__title
+    padding: 20px 0
+    font-size: 40px
+    font-family: "Montserrat"
+    color: rgb(34, 34, 34)
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+  &__text
+    font-size: 20px
+    font-family: "RobotoSlab"
+    color: rgb(119, 119, 119)
+    text-align: center
+  &__circle
+    height: 220px
+    width: 220px
+    background-color: #f9f9f9
+    border-radius: 50%
+    display: inline-block
+
+    &-leftDirection
+      order: 1
+      +TAB_MAX
+        order: 0
+        top: -24px
+        left: 302px
+  &__item
+    display: flex
+    justify-content: space-around
+    padding-bottom: 40px
+    +TAB_MAX
+      flex-direction: column
+      align-items: center
+  &__background
+    position: relative
+    height: 180px
+    box-sizing: border-box
+    padding: 20px 40px
+    background-color: #f9f9f9
+    margin: 25px 0 0px 35px
+    +TAB_MAX
+      margin: 25px 0
+    &-leftDirection
+      margin: 25px 35px 0 0px
+      +TAB_MAX
+        margin: 25px 0
+  &__triangle
+    position: absolute
+    top: 78px
+    left: -20px
+    +TAB_MAX
+      display: none
+    &-rightDirection
+      right: -20px
+      left: auto
+      transform: rotate(180deg)
+      +TAB_MAX
+        display: none

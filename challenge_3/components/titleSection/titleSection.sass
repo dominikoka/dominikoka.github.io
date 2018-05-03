@@ -1,16 +1,14 @@
 .titleSection
+  padding: 84px 0 0 0
   &__box
     position: relative
-
   &__slider
     width: 100%
     overflow: hidden
   &__img
     width: 100%
     +PHONE_ONLY_480
-      min-height: 300px
       object-position: 50% 50%
-
   &__textBox
     width: 100%
     position: absolute
@@ -36,7 +34,8 @@
     +PHONE_ONLY_600
       font-size: 26px
       width: 100%
-
+    +PHONE_ONLY_480
+      font-size: 18px
   &__text
     padding: 50px 0
     font-size: 20px
@@ -49,6 +48,8 @@
       padding: 10px 0
     +PHONE_ONLY_600
       padding: 5px 0
+    +PHONE_ONLY_480
+      font-size: 12px
   &__button
     font-size: 15px
     font-family: "Montserrat"
@@ -68,4 +69,8 @@
     &:hover
       background-color: rgb(204, 204, 204)
       transition: 0.5s
+    +PHONE_ONLY_480
+      margin-top: 5px
+      padding: 0 5px
+      font-size: 12px
 

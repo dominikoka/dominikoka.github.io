@@ -1,6 +1,18 @@
 .header
+  position: fixed
+  z-index: 10
+  right: 0
+  left: 0
+  top: 0
+  background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.72)), color-stop(.3,#fff) )
   &__box
     max-width: 940px
     margin: auto
     display: flex
     justify-content: space-between
+    padding: 25px 0
+    +LAPTOP_MAX
+      justify-content: center
+    +PHONE_ONLY_480
+      justify-content: flex-end
+      padding-right: 20px

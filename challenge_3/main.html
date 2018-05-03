@@ -23,7 +23,7 @@
     </script>
   </head>
   <body>
-    <div class="header">
+    <header class="header headroom" id="home">
       <div class="header__box">
         <div class="header__logo"><img class="header__img" src="components/img/logo.png" alt="Smiley face"></div>
         <div class="menuToogle">
@@ -31,18 +31,18 @@
           <ul class="menu">
             <li class="menu__item active"><a class="menu__link scroll" href="#home">HOME</a></li>
             <li class="menu__item"><a class="menu__link scroll" href="#about">ABOUT</a></li>
-            <li class="menu__item"><a class="menu__link scroll" href="#services">BLOG</a></li>
-            <li class="menu__item"><a class="menu__link scroll" href="#gallery">PORTFOLIO</a></li>
-            <li class="menu__item"><a class="menu__link scroll" href="#blog">CONTACT</a></li>
+            <li class="menu__item"><a class="menu__link scroll" href="#blog">BLOG</a></li>
+            <li class="menu__item"><a class="menu__link scroll" href="#portfolio">PORTFOLIO</a></li>
+            <li class="menu__item"><a class="menu__link scroll" href="#contact">CONTACT</a></li>
           </ul>
         </div>
       </div>
-    </div>
-    <div class="titleSection">
+    </header>
+    <section class="titleSection">
       <div class="titleSection__box">
         <div class="titleSection__textBox">
-          <div class="titleSection__title">Creative Digital Solutions</div>
-          <div class="titleSection__text">Proin iaculis purus consequat sem cure.</div>
+          <h1 class="titleSection__title">Creative Digital Solutions</h1>
+          <h2 class="titleSection__text">Proin iaculis purus consequat sem cure.</h2>
           <button class="titleSection__button" type="button" onclick="alert('QUALITY PRODUCT')">VIEW PORTFOLIO</button>
         </div>
         <div class="titleSection__slider slider">
@@ -54,33 +54,168 @@
           <div><img class="titleSection__img" src="components/img/slider_one.png" alt="Smiley face"></div>
         </div>
       </div>
-    </div>
-    <div class="services">
+    </section>
+    <section class="services" id="about">
       <div class="services__box">
         <div class="services__title">Professional Services</div>
         <div class="services__text">Proin iaculis puruas consequat sem cure</div>
         <div class="services__itemBox">
-          <div class="services__item"><img class="services__img" src="components/img/heart.png" alt="heart">
+          <div class="services__item">
+            <div class="services__imgAnimated"><img class="services__img" src="components/img/heart.png" alt="heart"><img class="services__imgRun" src="components/img/heart.png" alt="heart"></div>
             <div class="services__itemTitle animated bounceInDown">Beautiful designs</div>
             <div class="services__itemText animated bounceInUp">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
           </div>
-          <div class="services__item"><img class="services__img" src="components/img/graph.png" alt="heart">
+          <div class="services__item">
+            <div class="services__imgAnimated"><img class="services__img" src="components/img/graph.png" alt="heart"><img class="services__imgRun" src="components/img/graph.png" alt="heart"></div>
             <div class="services__itemTitle animated bounceInDown">Responsive web</div>
             <div class="services__itemText animated bounceInUp">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
           </div>
-          <div class="services__item"><img class="services__img" src="components/img/mobile.png" alt="heart">
+          <div class="services__item">
+            <div class="services__imgAnimated"><img class="services__img" src="components/img/mobile.png" alt="heart"><img class="services__imgRun services__imgRun-position" src="components/img/mobile.png" alt="heart"></div>
             <div class="services__itemTitle animated bounceInDown">Marketing tools</div>
             <div class="services__itemText animated bounceInUp">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
           </div>
         </div>
       </div>
-    </div>
-    <footer class="footer">FOOTER</footer>
+    </section>
+    <section class="relax">
+      <div class="relax__gear"><img class="relax__gearImg" src="components/img/gear.png" alt="gear"></div>
+      <div class="relax__background"><img class="relax__backgroundImg" src="components/img/relax_background.png" alt="background"><img class="relax__backgroundsImg" src="components/img/relax_shape.png" alt="background"></div>
+      <article class="relax__box">
+        <div class="relax__boxText">
+          <h1 class="relax__title">Just relax
+            <div class="relax__titleSpan">&</div><br>let us do the heavy lifting
+          </h1>
+          <p class="relax__text">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+        </div>
+        <div class="relax__items">
+          <div class="relax__item"><img class="relax__itemImg" src="components/img/checkmark.png" alt="checkmark">
+            <h3 class="relax__itemText">Initial Setup & Customizations</h3>
+          </div>
+          <div class="relax__item"><img class="relax__itemImg" src="components/img/checkmark.png" alt="checkmark">
+            <h3 class="relax__itemText">Regular Updates</h3>
+          </div>
+          <div class="relax__item"><img class="relax__itemImg" src="components/img/checkmark.png" alt="checkmark">
+            <h3 class="relax__itemText">Round The Clock Support</h3>
+          </div>
+        </div>
+        <button class="relax__button" type="button">LEARN MORE</button>
+      </article>
+    </section>
+    <section class="project" id="portfolio">
+      <div class="project__box">
+        <h1 class="project__title">latest project</h1>
+        <p class="project__text">Proin iaculis purus consequat sem cure</p>
+        <div class="project__info">
+          <h2 class="project__infoTitle">Developing a framework</h2>
+          <p class="project__infoText">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+          <div class="project__items">
+            <div class="project__item"><img class="project__itemImg" src="components/img/project_locked.png" alt="checkmark">
+              <h2 class="project__itemText">Powerful SEO Features<br><span class="project__itemSpan">Proin iaculis purus consequat sem cure.</span></h2>
+            </div>
+            <div class="project__items">
+              <div class="project__item"><img class="project__itemImg" src="components/img/project_locked.png" alt="checkmark">
+                <h2 class="project__itemText">Powerful SEO Features<br><span class="project__itemSpan">Proin iaculis purus consequat sem cure.</span></h2>
+              </div>
+            </div>
+            <div class="project__items">
+              <div class="project__item"><img class="project__itemImg" src="components/img/project_locked.png" alt="checkmark">
+                <h2 class="project__itemText">Powerful SEO Features<br><span class="project__itemSpan">Proin iaculis purus consequat sem cure.</span></h2>
+              </div>
+            </div>
+          </div>
+          <p class="project__infoText">Proin iaculis purus consequat sem cure</p><a class="project__href" href="https://www.w3schools.com/html/">view details</a>
+        </div>
+      </div>
+    </section>
+    <section class="values">
+      <div class="values__box">
+        <h1 class="values__title">Culture & Values</h1>
+        <p class="values__text">Proin iaculis purus consequat cure.</p>
+        <div class="values__items"><img class="values__line2" src="components/img/line.png" alt="checkmark"><img class="values__line1" src="components/img/line.png" alt="checkmark">
+          <div class="values__item"><img class="values__itemImg" src="components/img/music.png" alt="checkmark">
+            <h2 class="values__itemTitle">Work-Life Balance</h2>
+            <p class="values__itemText">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class="values__item"><img class="values__itemImg" src="components/img/music.png" alt="checkmark">
+            <h2 class="values__itemTitle">Work-Life Balance</h2>
+            <p class="values__itemText">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class="values__item"><img class="values__itemImg" src="components/img/music.png" alt="checkmark">
+            <h2 class="values__itemTitle">Work-Life Balance</h2>
+            <p class="values__itemText">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client" id="blog">
+      <div class="client__box">
+        <h1 class="client__title">our awesome clients</h1>
+        <p class="client__text">Proin iaculis purus consequat sem cure.</p>
+        <div class="client__item"><span class="client__circle"></span>
+          <div class="client__background">
+            <p class="client__textBox">“ Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus. ”</p><span class="client__span">- Jamie Richardson, Founder of Cocoa Media</span><img class="client__triangle" src="components/img/triangle.png" alt="triangle">
+          </div>
+        </div>
+        <div class="client__item"><span class="client__circle client__circle-leftDirection"></span>
+          <div class="client__background client__background-leftDirection">
+            <p class="client__textBox">“ Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus. ”</p><span class="client__span">- Jamie Richardson, Founder of Cocoa Media</span><img class="client__triangle client__triangle-rightDirection" src="components/img/triangle.png" alt="triangle">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ready">
+      <div class="ready__box">
+        <div class="ready__title">ready to talk about your next project?</div>
+        <button class="button ready__button">contact us</button>
+      </div>
+    </section>
+    <section class="logos">
+      <div class="logos__box"><img class="values__itemImg" src="components/img/envato.png" alt="checkmark"><img class="values__itemImg" src="components/img/wordpress.png" alt="checkmark"><img class="values__itemImg" src="components/img/envato.png" alt="checkmark"><img class="values__itemImg" src="components/img/wordpress.png" alt="checkmark"></div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="footer__background">
+        <div class="footer__contact">
+          <div class="footer__column">
+            <div class="footer__title">Contact Us</div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/location.png" alt="Smiley face"><a class="footer__text">Main St.<br>Toronto, ON<br>M1H 3A5</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/phone.png" alt="phone"><a class="footer__text" href="#home">522-5466</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/email.png" alt="email"><a class="footer__text" href="#home">hello@treehouse.com</a></div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__title">Latest posts</div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/news.png" alt="news"><a class="footer__text" href="#home">Made With Love In Toronto</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/photo.png" alt="news"><a class="footer__text" href="#home">Startup New & Engerging Tech</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/news.png" alt="news"><a class="footer__text" href="#home">Bitcoin Will Sonn Rule The World</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/news.png" alt="news"><a class="footer__text" href="#home">Wearable Technology On The Rise</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/media.png" alt="news"><a class="footer__text" href="#home">Learn Web Design In 30 Days!</a></div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__title">latest tweets</div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/twitter.png"><a class="footer__text" href="#home"> Confucius: Life is really simple, but we insist on making it complicated. #famousquotes 8 mins ago</a></div>
+            <div class="footer__item"><img class="footer__icon" src="components/img/twitter.png"><a class="footer__text" href="#home"> Confucius: Life is really simple, but we insist on making it complicated. #famousquotes 8 mins ago</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__media"><a class="footer__link" href="#home">© Copyright 2014 FreebiesXpress.com</a>
+        <div class="footer__mediaIcons"><img class="footer__mediaIcon" src="components/img/google.png"><img class="footer__mediaIcon" src="components/img/facebook.png"><img class="footer__mediaIcon" src="components/img/google.png"><img class="footer__mediaIcon" src="components/img/facebook.png"></div>
+      </div>
+    </footer>
     <script src="scripts/main.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="scripts/hovedir.js"></script>
     <script src="scripts/modernizr.custom.97074.js"></script>
     <script src="scripts/slick.min.js"></script>
     <script src="scripts/slick_custom.js"></script>
+    <!--automatyczne przesuwanie menu do id-->
+    <script src="scripts/smooth.js"></script>
+    <!--pozycja menu przy scrollowaniu-->
+    <script src="scripts/headroom.min.js"></script>
+    <script src="scripts/headroom_custom.js"></script>
+    <!--animacje tekstu przy scrollowaniu-->
+    <script src="scripts/scrollreveal.min.js"></script>
+    <script src="scripts/scrollrevelar_custom.js"></script>
+    <!--rotacja gear-->
+    <script src="scripts/rotate.js"></script>
   </body>
 </html>

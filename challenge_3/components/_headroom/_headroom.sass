@@ -1,0 +1,23 @@
+.headroom--top
+  transform: translateY(0) !important
+  transition: 1s
+
+.headroom--pinned
+  transform: translateY(0)
+  //padding: 5px 0 0 0
+  +LAPTOP_MAX
+    transform: translateY(-77%)
+.headroom
+  transition: transform .25s ease-in-out
+  will-change: transform
+.headroom--unpinned
+  transform: translateY(-100%)
+  +LAPTOP_MAX
+    transform: translateY(-77%)
+.headroom--not-top
+  +LAPTOP_MAX
+    & .menuToogle
+      top: 90px
+      transition: 1s
+    &.header
+      background: rgba(255,255,255,0)
