@@ -18,11 +18,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/services/services.sass">
+      <file leaf-file-name="_footer.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/footer/_footer.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            <state relative-caret-position="425">
+              <caret line="49" column="70" lean-forward="false" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+              <caret line="50" column="72" lean-forward="false" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
+              <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+              <caret line="52" column="72" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -31,8 +34,8 @@
       <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pug/main.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="24" />
+            <state relative-caret-position="-1207">
+              <caret line="67" column="65" lean-forward="false" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -43,16 +46,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/roll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -88,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="values.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="values.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/values/values.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/main.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -143,7 +146,6 @@
         <option value="$PROJECT_DIR$/components/ready/ready.sass" />
         <option value="$PROJECT_DIR$/components/logos/logos.sass" />
         <option value="$PROJECT_DIR$/components/footer/_footer.sass" />
-        <option value="$PROJECT_DIR$/components/footer/_footer.pug" />
         <option value="$PROJECT_DIR$/components/main.sass" />
         <option value="$PROJECT_DIR$/components/headroom/headroom.sass" />
         <option value="$PROJECT_DIR$/components/header/header.sass" />
@@ -160,6 +162,7 @@
         <option value="$PROJECT_DIR$/components/project/project.sass" />
         <option value="$PROJECT_DIR$/scripts/scrollrevelar_custom.js" />
         <option value="$PROJECT_DIR$/components/values/values.sass" />
+        <option value="$PROJECT_DIR$/components/footer/_footer.pug" />
       </list>
     </option>
   </component>
@@ -296,6 +299,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="challenge_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="challenge_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_headroom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,12 +427,12 @@
       <workItem from="1524681844672" duration="26000" />
       <workItem from="1524681928681" duration="16000" />
       <workItem from="1525159502862" duration="23268000" />
-      <workItem from="1525259096748" duration="47067000" />
+      <workItem from="1525259096748" duration="47115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70377000" />
+    <option name="totallyTimeSpent" value="70425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,14 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer/_footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/headroom/headroom.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -730,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/_headroom/_headroom.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -788,14 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pug/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/rotate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -843,6 +840,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1207">
+          <caret line="67" column="65" lean-forward="false" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/footer/_footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="70" lean-forward="false" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+          <caret line="50" column="72" lean-forward="false" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
+          <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+          <caret line="52" column="72" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
           <folding />
         </state>
       </provider>
