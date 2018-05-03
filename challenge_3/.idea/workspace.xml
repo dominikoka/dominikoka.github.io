@@ -18,24 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_footer.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/footer/_footer.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="49" column="70" lean-forward="false" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
-              <caret line="50" column="72" lean-forward="false" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-              <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
-              <caret line="52" column="72" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
+            <state relative-caret-position="255">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pug/main.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1207">
-              <caret line="67" column="65" lean-forward="false" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="65" />
+            <state relative-caret-position="204">
+              <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -120,7 +117,7 @@
             <state relative-caret-position="-878">
               <caret line="147" column="14" lean-forward="false" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
               <folding>
-                <marker date="1525379859646" expanded="true" signature="15595:15618" ph="..." />
+                <marker date="1525385017164" expanded="true" signature="15639:15662" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,7 +149,6 @@
         <option value="$PROJECT_DIR$/components/_headroom/_headroom.sass" />
         <option value="$PROJECT_DIR$/components/menu/menu.sass" />
         <option value="$PROJECT_DIR$/components/titleSection/titleSection.sass" />
-        <option value="$PROJECT_DIR$/pug/main.pug" />
         <option value="$PROJECT_DIR$/components/services/services.sass" />
         <option value="$PROJECT_DIR$/components/relax/relax.sass" />
         <option value="$PROJECT_DIR$/scripts/rotate_gear.js" />
@@ -163,6 +159,7 @@
         <option value="$PROJECT_DIR$/scripts/scrollrevelar_custom.js" />
         <option value="$PROJECT_DIR$/components/values/values.sass" />
         <option value="$PROJECT_DIR$/components/footer/_footer.pug" />
+        <option value="$PROJECT_DIR$/pug/main.pug" />
       </list>
     </option>
   </component>
@@ -427,12 +424,12 @@
       <workItem from="1524681844672" duration="26000" />
       <workItem from="1524681928681" duration="16000" />
       <workItem from="1525159502862" duration="23268000" />
-      <workItem from="1525259096748" duration="47115000" />
+      <workItem from="1525259096748" duration="47601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70425000" />
+    <option name="totallyTimeSpent" value="70911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +504,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1525379859646" expanded="true" signature="15595:15618" ph="..." />
+            <marker date="1525385017164" expanded="true" signature="15639:15662" ph="..." />
           </folding>
         </state>
       </provider>
@@ -788,7 +785,7 @@
         <state relative-caret-position="-878">
           <caret line="147" column="14" lean-forward="false" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
           <folding>
-            <marker date="1525379859646" expanded="true" signature="15595:15618" ph="..." />
+            <marker date="1525385017164" expanded="true" signature="15639:15662" ph="..." />
           </folding>
         </state>
       </provider>
@@ -852,21 +849,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pug/main.pug">
+    <entry file="file://$PROJECT_DIR$/components/footer/_footer.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="67" column="65" lean-forward="false" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="65" />
+        <state relative-caret-position="255">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer/_footer.pug">
+    <entry file="file://$PROJECT_DIR$/pug/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="70" lean-forward="false" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
-          <caret line="50" column="72" lean-forward="false" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-          <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
-          <caret line="52" column="72" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
+        <state relative-caret-position="204">
+          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
           <folding />
         </state>
       </provider>
