@@ -1211,6 +1211,14 @@ strong {
   }
 }
 
+.ready__itemImg {
+  opacity: 1;
+}
+
+.ready__itemImg:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 767px) {
   .ready__itemImg {
     padding: 20px 0;
