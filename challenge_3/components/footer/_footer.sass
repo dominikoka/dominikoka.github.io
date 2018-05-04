@@ -6,18 +6,22 @@
     margin:  auto
     display: flex
     padding: 60px 0
-
+    +PHONE_ONLY
+      flex-direction: column
+      text-align: center
   &__column
     width: 300px
+    +PHONE_ONLY
+      align-self: center
+      max-width: 100%
+      margin: auto
   &__item
     display: flex
     align-items: end
-
     &:hover .footer__text
       color: #7cc576
       cursor: default
       transition: 0.4s
-
   &__title
     font-size: 18px
     font-family: "Myriad Pro"
@@ -27,6 +31,9 @@
     font-size: 16px
     font-family: "Myriad Pro"
     color: rgb(236, 236, 236)
+    +PHONE_ONLY
+      br
+        display: none
   &__item
     padding: 15px 0px
   &__text
@@ -38,8 +45,32 @@
     margin: auto
     display: flex
     padding: 15px 0
+    +PHONE_ONLY_600
+      flex-direction: column
+      align-items: center
+  &__mediaIcons
+    position: relative
+    display: flex
   &__mediaIcon
     padding-left: 10px
+    position: relative
   &__link
     padding: 10px 100px 0 0
-
+    &:hover
+      text-decoration: none
+      color: #7cc576
+      transition: 1s
+    +PHONE_ONLY_600
+      padding: 10px 0
+  &__iconHover
+    position: absolute
+    top: 0px
+    left: 10px
+    opacity: 0
+  &__boxIcon
+    position: relative
+    &:hover .footer__iconHover
+      opacity: 1
+      transition: 0.3s
+    &:hover
+      transition: 0.3s

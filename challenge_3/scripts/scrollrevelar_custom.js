@@ -14,3 +14,13 @@ sr.reveal('.client__background', { duration: 1500,origin: 'right', distance: '20
 
 sr.reveal('.ready__title', { duration: 900,origin: 'left', distance: '200px',reset: true,
 });
+
+
+
+sr.reveal('.project__itemImg', { duration: 900,origin: 'left', distance: '100px',reset: true,
+});
+sr.reveal('.project__itemText', { duration: 900,origin: 'right', distance: '100px',reset: true,
+});
+
+sr.reveal('.values__itemImg', { duration: 900,origin: 'top', distance: '100px',reset: true,
+});

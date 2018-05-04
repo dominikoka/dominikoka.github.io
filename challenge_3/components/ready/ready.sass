@@ -36,12 +36,24 @@
       color: rgb(124, 197, 118)
       background-color: rgb(255, 255, 255)
 
-.logos
-  &__box
+
+  &__items
     padding: 50px 0
-    width: 940px
+
+    background-color: white
+
+  &__container
+    max-width: 940px
     margin: auto
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-flow: wrap
+    +PHONE_ONLY
+      flex-flow: nowrap
+      flex-direction: column
+      padding: 10px 0
+  &__itemImg
+    +PHONE_ONLY
+      padding: 20px 0
 
