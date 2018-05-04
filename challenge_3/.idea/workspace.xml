@@ -60,8 +60,8 @@
           <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pug/main.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+                <state relative-caret-position="391">
+                  <caret line="161" column="78" lean-forward="false" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="78" />
                   <folding />
                 </state>
               </provider>
@@ -500,12 +500,12 @@
       <workItem from="1524681844672" duration="26000" />
       <workItem from="1524681928681" duration="16000" />
       <workItem from="1525159502862" duration="23268000" />
-      <workItem from="1525259096748" duration="54888000" />
+      <workItem from="1525259096748" duration="55124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78198000" />
+    <option name="totallyTimeSpent" value="78434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,8 +572,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1525428763815" expanded="true" signature="11856:11876" ph="..." />
-            <marker date="1525428763815" expanded="true" signature="16114:16137" ph="..." />
+            <marker date="1525429146344" expanded="true" signature="11934:11954" ph="..." />
+            <marker date="1525429146344" expanded="true" signature="16192:16215" ph="..." />
           </folding>
         </state>
       </provider>
@@ -838,8 +838,8 @@
         <state relative-caret-position="2465">
           <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
           <folding>
-            <marker date="1525428763815" expanded="true" signature="11856:11876" ph="..." />
-            <marker date="1525428763815" expanded="true" signature="16114:16137" ph="..." />
+            <marker date="1525429146344" expanded="true" signature="11934:11954" ph="..." />
+            <marker date="1525429146344" expanded="true" signature="16192:16215" ph="..." />
           </folding>
         </state>
       </provider>
@@ -941,8 +941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pug/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+        <state relative-caret-position="391">
+          <caret line="161" column="78" lean-forward="false" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="78" />
           <folding />
         </state>
       </provider>
