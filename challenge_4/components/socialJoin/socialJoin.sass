@@ -1,0 +1,56 @@
+.socialJoin
+
+  height: 200px
+  margin: 15px 0 0 0
+  flex: 1 100%
+  background-color: white
+  text-align: center
+  &__title
+    padding: 15px 0 15px 0
+    font-size: 36px
+  &__text
+    padding: 0 0 15px 0
+    font-size: 26px
+  &__form
+    padding: 10px 0 0 0
+    display: flex
+    justify-content: center
+  &__email
+    width: 300px
+    padding: 0 0 0 20px
+    box-sizing: border-box
+    outline: none
+
+  &__button
+    border: none
+    margin: 0 0 0 10px
+    width: 100px
+    height: 40px
+    position: relative
+    overflow: hidden
+    cursor: pointer
+    font-size: 20px
+    font-family: "Raleway"
+    color: white
+    background-color: #f72b3b
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5)
+    padding: 5px 0
+    border-radius: 6px
+
+    &:after
+      content: ''
+      position: absolute
+      top: -50%
+      right: -50%
+      bottom: -50%
+      left: -50%
+      background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0))
+      transform: rotateZ(60deg) translate(-5em, 7.5em)
+    &:hover::after, &:focus::after
+      animation: sheen 1s forwards
+    &:focus
+      outline: 0
+@keyframes sheen
+  100%
+    transform: rotateZ(60deg) translate(1em, -9em)
+

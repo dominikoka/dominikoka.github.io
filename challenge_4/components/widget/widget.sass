@@ -1,0 +1,74 @@
+.widget
+  width: 215px
+  height: 315px
+  background-color: white
+  &__circle
+    height: 35px
+    width: 35px
+    background-color: rgb(197,205,209)
+    border-radius: 50%
+    display: inline-block
+    &-fb
+      background-image: url("../components/img/facebook.png")
+      background-position: 13px 10px
+      background-repeat: no-repeat
+      &:hover
+
+
+    &-twitter
+      background-image: url("../components/img/G.png")
+      background-position: 9px 10px
+      background-repeat: no-repeat
+    &-google
+      background-image: url("../components/img/G.png")
+      background-position: 9px 10px
+      background-repeat: no-repeat
+    &-rss
+      background-image: url("../components/img/Rss.png")
+      background-position: 10px 9px
+      background-repeat: no-repeat
+    &-pinterest
+      background-image: url("../components/img/pinterest.png")
+      background-position: 10px 9px
+      background-repeat: no-repeat
+  &__item
+    display: flex
+    padding: 10px 20px
+    &-fb
+      &:hover .widget__circle-fb
+        background-color: rgb(77,107,170)
+        @include hoverItem
+      &:hover .widget__name-fb
+        color: rgb(77,107,170)
+        transition: 0.3s
+    &-twitter
+      &:hover .widget__circle-twitter
+        background-color: rgb(79,198,248)
+        @include hoverItem
+      &:hover .widget__name-twitter
+        color: rgb(79,198,248)
+        transition: 0.3s
+    &-google
+      &:hover .widget__circle-google
+        background-color: rgb(234,96,96)
+        @include hoverItem
+      &:hover .widget__name-google
+        color: rgb(234,96,96)
+        transition: 0.3s
+    &-rss
+      &:hover .widget__circle-rss
+        background-color: purple
+        @include hoverItem
+      &:hover .widget__name-rss
+        color: purple
+        transition: 0.3s
+    &-pinterest
+      &:hover .widget__circle-pinterest
+        background-color: brown
+        @include hoverItem
+      &:hover .widget__name-pinterest
+        color: brown
+        transition: 0.3s
+  &__name
+    padding: 5px 15px
+

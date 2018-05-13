@@ -1,0 +1,89 @@
+.header
+  background-color: #4f667f
+  margin: 0 0 15px 0
+  &__box
+    margin: 30px 0 0 0
+    background-color: white
+    @include box
+    display: flex
+    justify-content: space-between
+    height: 59px
+  &__button
+    display: none
+  &__a
+    @include menuFont
+    padding: 15px
+    &:hover
+      text-decoration: none
+      color: rgb(82,199,248)
+      transition: 0.4s
+  &__ul
+    display: flex
+    margin: 18px 0 0 0
+  &__icons
+    padding: 0px 0px 0px 10px
+    display: flex
+    width: 130px
+    height: 60px
+    border-left: 1px solid gainsboro
+  &__sprite
+    background-image: url('../components/img/spritesheet.png')
+    background-repeat: no-repeat
+    display: block
+    &-facebook
+      width: 9px
+      height: 17px
+      background-position: -15px -15px
+      margin: 21px 15px
+    &-google
+      width: 16px
+      height: 16px
+      background-position: -54px -15px
+      margin: 23px 15px
+    &-twitter
+      width: 16px
+      height: 13px
+      background-position: -100px -15px
+      margin: 23px 15px
+  &__search
+    padding: 7px
+    background: url(../components/img/search.png) no-repeat 156px
+    margin: 16px 0 0 0
+    border: none
+    outline: none
+  &__img
+    padding: 22px 16px
+  &__profile
+    border-left: 1px solid gainsboro
+  &__ulSecond
+    display: none
+    width: 240px
+    position: absolute
+    text-decoration: none
+    background: rgb(21,40,64)
+  &__aSecond
+    padding: 10px
+    font-size: 16px
+    font-family: "Roboto"
+    color: rgb(86, 204, 200)
+    display: block
+    background: url(../components/img/arrow.png) no-repeat 150px
+    transition: 0.3s
+    text-decoration: none
+    &:hover
+      background: url(../components/img/arrow.png) no-repeat 170px
+      transition: 0.3s
+      text-decoration: none
+  &__aThird
+
+    font-size: 16px
+    font-family: "Roboto"
+    color: white
+    &:hover
+      text-decoration: none
+  &__liThird
+    padding: 5px 10px
+  &__liSecond
+    border-bottom: 1px solid #52c7f8
+    &:hover
+      background-color: rgb(38,58,84)

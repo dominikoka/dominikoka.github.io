@@ -1,0 +1,25 @@
+doctype html
+html( lang="pl")
+
+  include _head.pug
+
+  block initScripts
+
+  body
+
+    block content
+
+    include ../components/footer/_footer.pug
+
+    //- plik skryptów do którego pakujemy wszystkie js, łącznie z używanymi paczkami NPM
+    //- podpinanie linkujemy na koniec zmiennej vendorScripts w Gruntfile.js
+    //- łopatologicznie ale na szybko nie zrobiłem automatycznego ładowania ;(
+    //script(src='scripts/main.min.js')
+
+
+
+    //script(src='scripts/jquery.min.js')
+    script(src='https://code.jquery.com/jquery-2.2.0.min.js')
+    script(src='scripts/slick.js')
+    script(src='scripts/main.js')
+

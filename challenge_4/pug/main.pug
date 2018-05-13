@@ -1,0 +1,127 @@
+extends _layout.pug
+
+block content
+  header.header
+    .container
+      .header__box
+        .hamburger.hamburger--3dy-r
+          .hamburger-box
+            .hamburger-inner
+        nav.header__menu
+          ul.header__ul
+            li.header__li
+              a.header__a(href='#home1') HOME
+            li.header__li
+              a.header__a(href='#home2') STORE
+            li.header__li
+              a.header__a(href='#home3') BLOG
+              ul.header__ulSecond
+                li.header__liSecond
+                  a.header__aSecond.toggle1(href='#') Tech
+                  ul.header__ulThird.animation1
+                    li.header__liThird
+                      a.header__aThird(href='#') Software & Apps
+                    li.header__liThird
+                      a.header__aThird(href='#') Gadgets
+                    li.header__liThird
+                      a.header__aThird(href='#') Mobile
+                li.header__liSecond
+                  a.header__aSecond.toggle2(href='#') Entertainment
+                  ul.header__ulThird.animation2
+                    li.header__liThird
+                      a.header__aThird(href='#') Film
+                    li.header__liThird
+                      a.header__aThird(href='#') Gaming
+                    li.header__liThird
+                      a.header__aThird(href='#') Music
+                    li.header__liThird
+                      a.header__aThird(href='#') Sport
+                li.header__liSecond
+                  a.header__aSecond.toggle3(href='#') Business
+                  ul.header__ulThird.animation3
+                    li.header__liThird
+                      a.header__aThird(href='#') Jobs
+                    li.header__liThird
+                      a.header__aThird(href='#') Marketing
+                    li.header__liThird
+                      a.header__aThird(href='#') Media
+                li.header__liSecond
+                  a.header__aSecond.toggle4(href='#') Lifestyle
+                  ul.header__ulThird.animation4
+                    li.header__liThird
+                      a.header__aThird(href='#') Home
+                    li.header__liThird
+                      a.header__aThird(href='#') Helath & Fitness
+                    li.header__liThird
+                      a.header__aThird(href='#') Travel & Leisure
+
+            li.header__li
+              a.header__a(href='#home4') ABOUT
+            li.header__li
+              a.header__a(href='#home5') CONTACT
+        .header__searchBox
+          input(type='search').header__search
+        .header__icons
+          i.header__sprite.header__sprite-facebook
+          i.header__sprite.header__sprite-google
+          i.header__sprite.header__sprite-twitter
+        .header__profile
+          img.header__img(src='components/img/login.png', alt='Smiley face')
+  .social
+    .container
+      .social__box
+        .widget
+          .widget__item.widget__item-fb
+            span.widget__circle.widget__circle-fb
+            .widget__name.widget__name-fb Facebook
+          .widget__item.widget__item-twitter
+            span.widget__circle.widget__circle-twitter
+            .widget__name.widget__name-twitter Twitter
+          .widget__item.widget__item-google
+            span.widget__circle.widget__circle-google
+            .widget__name.widget__name-google Google
+          .widget__item.widget__item-rss
+            span.widget__circle.widget__circle-rss
+            .widget__name.widget__name-rss RSS feeds
+          .widget__item.widget__item-pinterest
+            span.widget__circle.widget__circle-pinterest
+            .widget__name.widget__name-pinterest Pinterest
+        .icon
+          .icon__item.icon__item-fb
+            .icon__number 156K
+            .icon__text Following
+          .icon__item.icon__item-twitter
+            .icon__number 89K
+            .icon__text Follow
+        .signIn
+          p.signIn__title SignIn
+          p.signIn__text Just select your favorite social network to get started
+          .signIn__sprites
+            i.signIn__sprite.signIn__sprite-fb
+            i.signIn__sprite.signIn__sprite-g
+            i.signIn__sprite.signIn__sprite-l
+            i.signIn__sprite.signIn__sprite-t
+        .socialJoin
+          .socialJoin__title Join the Newsletter
+          .socialJoin__text Sign up for our personalized daily newsletter
+          form.socialJoin__form
+            input(type="email" placeholder="Enter your email").socialJoin__email
+            button.socialJoin__button sign Up
+  .slider
+    .container
+      .slider__box
+        .slider__item
+          img.slider__img(src="../components/img/slider_1.jpg" alt="Image Title")
+        .slider__item
+          img.slider__img(src="../components/img/slider_2.jpg" alt="Image Title")
+        .slider__item
+          img.slider__img(src="../components/img/slider_3.jpg" alt="Image Title")
+      .slider__btns
+        button.slider__btnPrv(type='button') Prv
+        button.slider__btnNxt(type='button') nxt
+      .slider__textBox
+        .slider__title Featured Story
+        .slider__text Now that the holiday gift-giving time is over, we're sure many of our readers unwranned some new consoles. Despite its long life one the market...
+        button.slider__button(type='button') VIEW MORE
+
+
