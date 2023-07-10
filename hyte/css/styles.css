@@ -1,0 +1,138 @@
+@font-face {
+  font-family: photographSignature;
+  src: url(../fonts/Photograph\ Signature.ttf);
+}
+@font-face {
+  font-family: wildy;
+  src: url(../fonts/Photograph\Wildy-Sans.ttf);
+}
+body {
+  background: url(../img/bckground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.title_box {
+  max-width: 1200px;
+  margin: auto;
+}
+.al_title {
+  color: white;
+  text-align: center;
+  margin: 100px 0px 20px 0;
+  font-family: photographSignature;
+  font-size: 120px;
+  font-weight: bold;
+}
+.blog_title {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: wildy;
+  color: white;
+}
+.al_text {
+  color: white;
+  text-align: center;
+
+  font-family: photographSignature;
+  font-size: 40px;
+}
+.blog_photo {
+  position: relative;
+  max-width: 1160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
+}
+.blog_photo .blog_item {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  background: #000;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+.blog_photo:hover .blog_item {
+  transform: rotateY(25deg);
+}
+.blog_photo .box:hover ~ .blog_item {
+  transform: rotateY(-25deg);
+}
+.blog_photo .blog_item:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+.blog_photo .blog_item .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.blog_photo .blog_item .imgBx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #f00, #000);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+.blog_photo .blog_item:hover .imgBx:before {
+  opacity: 1;
+}
+.blog_photo .blog_item .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog_photo .blog_item .blog_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.blog_photo .blog_item .blog_content h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+}
+.blog_photo .blog_item:hover .blog_content h2 {
+  transform: translateY(0px);
+}
+.blog_photo .blog_item .blog_content p {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 14px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+}
+.blog_photo .blog_item:hover .blog_content p {
+  transform: translateY(0px);
+}
